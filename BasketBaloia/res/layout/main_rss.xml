@@ -52,10 +52,13 @@
     </LinearLayout>
     
 	<ListView
+	  style="@style/AppBaseTheme"
 	  android:id="@+id/lstData" 
 	  android:layout_width="wrap_content" 
 	  android:layout_height="wrap_content"
-	  android:padding="5dip">
+	  android:padding="5dip"
+	  >
+		
 	</ListView>	
 
 </LinearLayout>

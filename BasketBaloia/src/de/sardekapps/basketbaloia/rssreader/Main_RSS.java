@@ -295,7 +295,7 @@ public class Main_RSS extends Activity {
      * */
     private void setData(LinkedList<HashMap<String, String>> data){
     	SimpleAdapter sAdapter = new SimpleAdapter(getApplicationContext(), data, 
-    			android.R.layout.two_line_list_item, 
+    			R.layout.list_rss, 
     			new String[] { DATA_TITLE, DATA_DESCRIPTION }, 
     			new int[] { android.R.id.text1, android.R.id.text2 });
     	ListView lv = (ListView) findViewById(R.id.lstData);
